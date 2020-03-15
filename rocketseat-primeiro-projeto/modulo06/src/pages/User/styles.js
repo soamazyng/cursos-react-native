@@ -78,3 +78,21 @@ export const Author = styled.Text`
   color: #666;
   margin-top: 2px;
 `;
+
+export const StarButton = styled(RectButton)`
+  margin-top: 10px;
+  align-self: stretch;
+  border-radius: 4px;
+  background-color: #7159c1;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+`;
+
+export const StarButtonText = styled.Text`
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+`;

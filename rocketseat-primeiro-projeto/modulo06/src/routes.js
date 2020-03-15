@@ -4,6 +4,7 @@ import { createStackNavigator } from 'react-navigation-stack';
 import { createAppContainer } from 'react-navigation';
 
 import Main from './pages/Main';
+import RepoStar from './pages/RepoStart';
 import User from './pages/User';
 
 const Routes = createAppContainer(
@@ -11,6 +12,7 @@ const Routes = createAppContainer(
     {
       Main,
       User,
+      RepoStar,
     },
     {
       defaultNavigationOptions: {
