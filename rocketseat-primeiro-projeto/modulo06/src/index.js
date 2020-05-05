@@ -1,4 +1,3 @@
-// eslint-disable-next-line sort-imports
 import React from 'react';
 
 import { StatusBar } from 'react-native';
